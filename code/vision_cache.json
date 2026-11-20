@@ -1,0 +1,133 @@
+{
+  "_note": "Screenshot transcriptions. Eleven supplied PNGs carry no text layer, so their visible facts were read once by the agent and stored here. Each entry names the focal record the screen shows, the identifiers visible on it, and the state the screen establishes. Keyed by the evidence_manifest file_id so a screenshot is cited exactly like any other artifact.",
+  "evidence_04": [
+    {
+      "resource_id": "account_5762",
+      "system": "account_service",
+      "category": "USER_PROFILE",
+      "identifiers": {
+        "user_id": "user_11",
+        "email": "haruka.s1838@zoho.com",
+        "phone": "+81 90 7610 2507",
+        "name": "Haruka Sato"
+      },
+      "state": "PRESENT",
+      "note": "Customer Operations overview shows a live profile with name, email and phone for account_5762."
+    }
+  ],
+  "evidence_09": [
+    {
+      "resource_id": "search_428",
+      "system": "search_service",
+      "category": "SEARCH_INDEX_ENTRY",
+      "identifiers": {
+        "user_id": "user_13",
+        "email": "g.silva76@gmail.com",
+        "name": "Gabriel Silva"
+      },
+      "state": "PRESENT",
+      "note": "Search console hit for the deleted customer's email, document search_428 still indexed."
+    }
+  ],
+  "evidence_14": [
+    {
+      "resource_id": "data_flow_1121",
+      "system": "integration_service",
+      "category": "DATA_FLOW",
+      "identifiers": {
+        "email": "jain.aditi@gmail.com"
+      },
+      "state": "FLOW_ACTIVE",
+      "note": "Connector topology shows data_flow_1121 healthy, continuous sync, 1284 events per hour, last delivery 07:59:42."
+    }
+  ],
+  "evidence_19": [
+    {
+      "resource_id": "analytics_7438",
+      "system": "analytics_platform",
+      "category": "ANALYTICS_PROFILE",
+      "identifiers": {
+        "user_id": "user_20",
+        "email": "darwish.omar@icloud.com",
+        "name": "Omar Darwish"
+      },
+      "state": "PRESENT",
+      "note": "Analytics user view still resolves the record to a named person and email address."
+    }
+  ],
+  "evidence_23": [
+    {
+      "resource_id": "export_1260",
+      "system": "export_service",
+      "category": "USER_EXPORT",
+      "identifiers": {
+        "email": "ingrid.dahl@outlook.com"
+      },
+      "state": "PRESENT",
+      "note": "Download centre lists export_1260 owned by the deleted customer, status Ready, 18.4 MB, profile and orders included."
+    }
+  ],
+  "evidence_28": [
+    {
+      "resource_id": "support_1034",
+      "system": "support_platform",
+      "category": "SUPPORT_MESSAGE",
+      "identifiers": {
+        "email": "kagyeman8947@fastmail.com",
+        "name": "Kofi Agyeman"
+      },
+      "state": "PRESENT",
+      "note": "Ticket conversation shows the customer name and email beside order context that must be retained."
+    }
+  ],
+  "evidence_32": [
+    {
+      "resource_id": "backup_9287",
+      "system": "backup_service",
+      "category": "BACKUP_ARCHIVE",
+      "identifiers": {
+        "email": "areed1433@gmail.com"
+      },
+      "state": "RESTORE_ALLOWED",
+      "note": "Vault recovery manager lists backup_9287 for the customer account with restore success 99.6 percent and a successful restore drill on 29 Mar."
+    }
+  ],
+  "evidence_37": [
+    {
+      "resource_id": "audit_record_003",
+      "system": "security_service",
+      "category": "SECURITY_AUDIT_LOG",
+      "identifiers": {
+        "user_id": "user_03"
+      },
+      "state": "PRESENT",
+      "note": "Sentinel account events show audit_record_003 as a valid signed account-closure event for the subject."
+    }
+  ],
+  "evidence_42": [
+    {
+      "resource_id": "tombstone_17",
+      "system": "identity_service",
+      "category": "ACCOUNT_TOMBSTONE",
+      "identifiers": {
+        "user_id": "user_17"
+      },
+      "state": "REDACTED",
+      "note": "Customer reference registry shows the retained customer key only; no name, email or phone remains on the reference."
+    }
+  ],
+  "evidence_60": [
+    {
+      "resource_id": "marketing_001",
+      "system": "marketing_platform",
+      "category": "MARKETING_PROFILE",
+      "identifiers": {
+        "email": "sj.park@naver.com",
+        "phone": "+82 10-5837-9451",
+        "name": "Soo-jin Park"
+      },
+      "state": "PRESENT",
+      "note": "Audience operations profile for the deleted customer is live with email opt-in still enabled."
+    }
+  ]
+}
